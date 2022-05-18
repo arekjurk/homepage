@@ -1,0 +1,22 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.table__cell {
+   text-align: center;
+   vertical-align: middle;
+   border: 1px solid #727373;
+   padding: 7px;
+}
+
+.table__column--header {
+    background-color: #9a9b9c;
+    font-weight: bold;
+}
+
+.table__cell:hover {
+    background-color: #bababa;
+  }

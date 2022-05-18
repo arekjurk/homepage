@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.place {
+  color:blue;
+}
+
+.welcome {
+  font-size: 25px;;
+}
+
+.container {
+  overflow-x: auto;
+  padding: 5px;
+}
+
+.photo {
+  margin: 25px;
+  width: 250px;
+  box-shadow: 4px 5px 6px #8395a7;
+}
+
+.delete--photo {
+  display: none;
+}
+
+

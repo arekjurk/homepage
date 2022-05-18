@@ -1,0 +1,38 @@
+.section {
+    margin: 2px 1px;
+    padding: 5px;
+}
+.section__headline {
+    background-color: #c5c7c9;
+    text-align: center;
+    box-shadow: 4px 4px 3px #8395a7;
+    font-weight: bold;
+}
+
+.section__unorderedList {
+    text-align: left;
+}
+
+.section--overflow {
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.section__contactList{
+    list-style: none;
+    text-decoration: none;
+}
+
+.section__contactLink {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.section__contactLink:hover {
+    background-color: #f5f7fa;
+}
+
+.section__picture {
+    width: 310px;
+}
